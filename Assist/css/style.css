@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header setion start */
+header{
+    background-color: #122A56;
+    height: auto;
+    line-height: 60px;
+}
+header .col-md-6 h2{
+    line-height: 60px;
+}header .col-md-6 h2{
+    line-height: 60px;
+}header .col-md-6 h2{
+    line-height: 60px;
+}
+/* header setion end */
+/* BANNER setion START */
+main{
+    height: auto;
+    width: 100%;
+    background:linear-gradient(rgba(22, 70, 110,0.3),rgba(103, 117, 143,0.3)),url(../img/1st\ image.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+main .col-md-7{
+   padding-top: 100px;
+}
+main .col-md-5 form{
+    background-color:#142954;
+    padding: 30px;
+}
+/* BANNER setion end */
+/* PEOPLE SECTION START */
+#people p{
+    word-break:break-all;
+}
+/* PEOPLE SECTION END */
+/* about section start */
+#about{
+    background-color: #142954;
+    color: white;
+    word-break:break-all;
+}
+#about #btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 7px 50px;
+    transition: all 0.4s;
+}
+#about #btn:hover{
+    background-color: white;
+    color: #142954;
+}
+/* about section end */
+/* lorem section start */
+#lorem p{
+    word-break: break-all;
+}
+/* lorem section end */
+/* footer section start */
+  footer{
+    height: 80px;
+    text-align: center;
+    background-color: #142954;
+    color: white;
+  }
+  footer p{
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+/* footer section end */
+
+/* max-width 992px start */
+@media  screen and (max-width) {
+    header h2{
+        font-size: 25px;
+    }
+    header span{
+        font-size: 14px;
+    }
+    header h4 span{
+        font-size: 19px;
+    }
+    
+}
+/* max-width 992px end */
+
+/* max-width 768px start*/
+@media screen and(max-width:767px) {
+    header .col-md-6{
+        justify-content: center;
+        text-align: center;
+    }
+    main .col-md-7{
+        padding-top: 0px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    
+}
+/* max-width 768px eend*/
+
+/* max-width 576px */
+@media screen and (max-width:576px) {
+
+    footer p{
+        font-size: 12px;
+    }
+    
+}
+/* max-width 576px */
